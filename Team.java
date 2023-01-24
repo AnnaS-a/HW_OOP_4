@@ -51,4 +51,16 @@ public class Team<E extends Warrior> implements Iterable<E> {
         return String.format("minRepulse= %d, minArmor= %d", minRepulse, minArmor);
     }
 
+
+    // public String minTeamProtection() {
+    //     int minArmor = 1000;
+    //     for (E item : team) {
+    //         if (item.getDefended().protection() < minArmor) {
+    //         minArmor = item.getDefended().protection();
+    //         }
+    //     }
+    //     return String.format("minArmor= %d", minArmor);    
+    // }
 }
+
+
